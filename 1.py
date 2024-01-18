@@ -26,4 +26,4 @@ def list_print(node):
 list1 = ListNode(-1, ListNode(0, ListNode(2, ListNode(5))))
 list2 = ListNode(1, ListNode(2, ListNode(4, ListNode(7))))
 result = new_list(list1, list2)
-print(list_print(result))  
+print("Результат:",list_print(result))  
